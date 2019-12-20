@@ -11,7 +11,7 @@ services:
     environment:
       POSTGRES_PASSWORD: password
       POSTGRES_USER: admin
-      POSTGRES_DB: appdpcker
+      POSTGRES_DB: app
 
   adminer:
     image: adminer
